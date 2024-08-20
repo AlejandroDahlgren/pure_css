@@ -1,4 +1,5 @@
 import './App.css'
+import TeemoImage from './assets/Teemo_OmegaSquad_29.webp'
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
               watch my other projects
             </p>
           </div>
-          <div className='model'></div>
+          <div className='model' style={{backgroundImage: `url(${TeemoImage})`}}></div>
         </div>
       </div>
     </>
