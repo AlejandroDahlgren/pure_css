@@ -20,8 +20,8 @@ function App() {
           <div className='item' style={{ "--position": 10}}><img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/game_data_live/6fbbefbe39f97cf20befb9fafe815cafdadebb58-496x560.jpg?auto=format&fit=fill&q=80&w=352" alt="" /></div>
         </div>
         <div className='content'>
-          <h1 data-content="CSS ONLY">
-            CSS ONLY
+          <h1 data-content="PURE CSS">
+            PURE CSS
           </h1>
           <div className='author'>
             <h2>Alejandro Dahlgren</h2>

@@ -4,13 +4,26 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url(https://besthqwallpapers.com/Uploads/7-3-2022/192595/league-of-legends-logo-gray-creative-background-league-of-legends-emblem-gray-paper-texture-league-of-legends.jpg);
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://wallpaperaccess.com/full/8360024.jpg);
   background-position: center;
-  background-size: 105%;
+  background-size: 130%;
   background-repeat: no-repeat;
+  filter: grayscale(90%);
+  z-index: -1;
 }
 
 .banner {
@@ -95,16 +108,27 @@ body {
   inset: 0 0 0 0;
   content: attr(data-content);
   z-index: 2;
-  -webkit-text-stroke: 2px #d2d2d2;
+  -webkit-text-stroke: 4px #ffffff;
   color: transparent;
 }
 .banner .content .author{
   font-family: 'Poppins';
   text-align: right;
   max-width: 200px;
+  color: #25283B;
+  -webkit-text-stroke: 0.5px #ffffff;
 }
+
+.banner .content .author p{
+  font-family: 'Poppins';
+  text-align: right;
+  max-width: 200px;
+  font-size: 15px;
+  color: white;
+}
+
 .banner .content h2 {
-  font-size: 3em;
+  font-size: 2em;
 }
 .banner .content .model {
   width: 100%;
